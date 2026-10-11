@@ -1,0 +1,4 @@
+# screenshots produced by tools/shot.ps1 (regenerate any time)
+tools/shots/
+# local Claude Code session config
+.claude/

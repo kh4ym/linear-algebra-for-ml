@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Linear Algebra for Machine Learning — a visual course</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <button id="btn-menu" class="icon-btn" title="Contents (m)" aria-label="Toggle contents">&#9776;</button>
+    <a class="brand" href="#/"><span class="brand-mark">LA</span><span class="brand-sep">&middot;</span><span class="brand-mark">ML</span><small>Visual linear algebra for machine learning</small></a>
+    <div class="topbar-spacer"></div>
+    <div id="top-progress" class="top-progress" title="Course progress"></div>
+    <button id="btn-glossary" class="icon-btn" title="Glossary (g)" aria-label="Glossary">A&ndash;Z</button>
+    <button id="btn-settings" class="icon-btn" title="Settings" aria-label="Settings">&#9881;</button>
+  </header>
+  <div class="main" id="main">
+    <nav id="sidebar" class="sidebar" aria-label="Course contents"></nav>
+    <main id="content" class="content"></main>
+  </div>
+  <aside id="drawer" class="drawer hidden" aria-label="Glossary"></aside>
+  <div id="banner" class="banner hidden" role="alert"></div>
+  <div id="boot-status" class="boot-status">Loading lessons&hellip;</div>
+</div>
+
+<!-- core -->
+<script src="js/core/color.js"></script>
+<script src="js/core/fmt.js"></script>
+<script src="js/core/ease.js"></script>
+<script src="js/core/rng.js"></script>
+<script src="js/core/num.js"></script>
+<!-- engine -->
+<script src="js/engine/canvas.js"></script>
+<script src="js/engine/camera.js"></script>
+<script src="js/engine/gfx.js"></script>
+<script src="js/engine/gfx3d.js"></script>
+<script src="js/engine/input.js"></script>
+<script src="js/engine/tex.js"></script>
+<script src="js/engine/ui.js"></script>
+<script src="js/engine/player.js"></script>
+<script src="js/engine/checks.js"></script>
+<!-- app -->
+<script src="js/app/registry.js"></script>
+<script src="js/app/store.js"></script>
+<script src="js/app/router.js"></script>
+<script src="js/app/shell.js"></script>
+<script src="js/app/pages.js"></script>
+<script src="js/app/selftest.js"></script>
+<!-- lessons -->
+<script src="lessons/_manifest.js"></script>
+<script src="js/boot.js"></script>
+</body>
+</html>
